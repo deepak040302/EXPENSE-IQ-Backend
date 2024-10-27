@@ -1,6 +1,6 @@
 package com.eta.ExpenseTrackerApp.utils;
 
-import com.eta.ExpenseTrackerApp.models.Income;
+import com.eta.ExpenseTrackerApp.entity.Income;
 
 import java.io.File;
 import java.io.FileOutputStream;

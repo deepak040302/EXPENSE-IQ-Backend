@@ -1,9 +1,9 @@
 package com.eta.ExpenseTrackerApp.controllers;
 
-import com.eta.ExpenseTrackerApp.dao.ExpenseRepository;
-import com.eta.ExpenseTrackerApp.dao.IncomeRepository;
-import com.eta.ExpenseTrackerApp.models.Expense;
-import com.eta.ExpenseTrackerApp.models.Income;
+import com.eta.ExpenseTrackerApp.repository.ExpenseRepository;
+import com.eta.ExpenseTrackerApp.repository.IncomeRepository;
+import com.eta.ExpenseTrackerApp.entity.Expense;
+import com.eta.ExpenseTrackerApp.entity.Income;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

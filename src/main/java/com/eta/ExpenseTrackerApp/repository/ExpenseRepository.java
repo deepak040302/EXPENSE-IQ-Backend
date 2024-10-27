@@ -1,6 +1,6 @@
-package com.eta.ExpenseTrackerApp.dao;
+package com.eta.ExpenseTrackerApp.repository;
 
-import com.eta.ExpenseTrackerApp.models.Expense;
+import com.eta.ExpenseTrackerApp.entity.Expense;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

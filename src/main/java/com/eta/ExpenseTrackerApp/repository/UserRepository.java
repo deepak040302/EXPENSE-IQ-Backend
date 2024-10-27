@@ -1,5 +1,6 @@
-package com.eta.ExpenseTrackerApp.security;
+package com.eta.ExpenseTrackerApp.repository;
 
+import com.eta.ExpenseTrackerApp.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

@@ -1,8 +1,8 @@
 package com.eta.ExpenseTrackerApp.service;
 
-import com.eta.ExpenseTrackerApp.dao.ExpenseRepository;
+import com.eta.ExpenseTrackerApp.repository.ExpenseRepository;
 import com.eta.ExpenseTrackerApp.exception.ExpenseTrackerAppApiException;
-import com.eta.ExpenseTrackerApp.models.Expense;
+import com.eta.ExpenseTrackerApp.entity.Expense;
 import com.eta.ExpenseTrackerApp.utils.CurrentLoggedInUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

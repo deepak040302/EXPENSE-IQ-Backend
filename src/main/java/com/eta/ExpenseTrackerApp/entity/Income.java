@@ -1,4 +1,4 @@
-package com.eta.ExpenseTrackerApp.models;
+package com.eta.ExpenseTrackerApp.entity;
 
 import lombok.*;
 import javax.persistence.*;

@@ -1,6 +1,7 @@
 package com.eta.ExpenseTrackerApp.security;
 
-import com.eta.ExpenseTrackerApp.models.Income;
+import com.eta.ExpenseTrackerApp.repository.UserRepository;
+import com.eta.ExpenseTrackerApp.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,7 +13,6 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
 import java.util.Map;
 
 @RestController

@@ -1,14 +1,12 @@
 package com.eta.ExpenseTrackerApp.controllers;
 
-import com.eta.ExpenseTrackerApp.models.Expense;
-import com.eta.ExpenseTrackerApp.models.Income;
+import com.eta.ExpenseTrackerApp.entity.Expense;
+import com.eta.ExpenseTrackerApp.entity.Income;
 import com.eta.ExpenseTrackerApp.service.ExpenseService;
 import com.eta.ExpenseTrackerApp.service.IncomeService;
 import com.eta.ExpenseTrackerApp.utils.CurrentLoggedInUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

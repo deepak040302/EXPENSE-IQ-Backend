@@ -1,9 +1,8 @@
-package com.eta.ExpenseTrackerApp.security;
+package com.eta.ExpenseTrackerApp.entity;
 
 import lombok.*;
 
 import javax.persistence.*;
-import javax.validation.Valid;
 
 @Entity
 @Getter

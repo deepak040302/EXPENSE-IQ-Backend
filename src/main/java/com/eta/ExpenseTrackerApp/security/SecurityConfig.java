@@ -1,5 +1,6 @@
 package com.eta.ExpenseTrackerApp.security;
 
+import com.eta.ExpenseTrackerApp.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.authentication.AuthenticationManager;
