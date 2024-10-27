@@ -1,17 +1,11 @@
 # EXPENSE-IQ-Backend
 
-# EXPENSE-IQ Backend
-
 **EXPENSE-IQ** is a Spring Boot-based backend for an expense tracker application that helps users manage their income, expenses, and financial goals. This backend provides REST APIs for performing various operations related to expense tracking, authentication, and reporting.
 
 ## Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
-- [Configuration](#configuration)
-- [API Endpoints](#api-endpoints)
-- [Database](#database)
-- [License](#license)
 
 ---
 
