@@ -41,3 +41,8 @@
    ```bash
    git clone https://github.com/username/EXPENSE-IQ-Backend.git
    cd EXPENSE-IQ-Backend
+2. **Configure the Database:** Update the application.properties with your database settings.
+3. Build and Run the Application:
+   ```bash
+   mvn clean install
+   mvn spring-boot:run
