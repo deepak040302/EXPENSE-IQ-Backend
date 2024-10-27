@@ -10,7 +10,7 @@ import java.util.List;
 
 @Repository
 public interface IncomeRepository extends JpaRepository<Income, Long> {
-    @Query("SELECT new com.eta.ExpenseTrackerApp.models.Income(e.id, e.subject, e.merchant, e.createdDate, e.total, e.category, e.description, e.username) " +
+    @Query("SELECT new com.eta.ExpenseTrackerApp.entity.Income(e.id, e.subject, e.merchant, e.createdDate, e.total, e.category, e.description, e.username) " +
             "FROM Income e WHERE e.username = :username")
     List<Income> findIncomesExcludingDocument(@Param("username") String username);
 
